@@ -1,0 +1,14 @@
+@import '../../styles/settings.scss';
+
+.about {
+  
+  h2 {
+    font-size: ($base-size * 2.5);
+    text-align: center;
+    color: $color-light;
+  }
+
+  p {
+    color: $color-light;
+  }
+}
