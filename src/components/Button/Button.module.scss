@@ -13,24 +13,25 @@
   font-weight: 700;
   text-transform: uppercase;
   transition: $transition;
+  white-space: nowrap;
 
   &:hover {
-      background: darken($color-success, 5%);
+    background: darken($color-success, 5%);
   }
 
   &.danger {
-      background: $color-warning;
+    background: $color-warning;
 
-      &:hover {
-          background: darken($color-warning, 5%);
-      }
+    &:hover {
+      background: darken($color-warning, 5%);
+    }
   }
 
   &.transparent {
-      background: transparent;
+    background: transparent;
 
-      &:hover {
-          color: darken($color-light, 20%);
-      }
+    &:hover {
+      color: darken($color-light, 20%);
+    }
   }
 }
