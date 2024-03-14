@@ -11,12 +11,22 @@
   justify-content: space-between;
   font-weight: bold;
 
-  button {
-    background-color: $color-light;
-    border: none;
-  }  
+  .icons { 
+    display: flex;
+    flex-direction: flex-end;
 
-  .active {
-    color: $color-warning;
+    button {
+      color: lighten($color-dark, 60%);
+      background-color: $color-light;
+      border: none;
+
+      &:hover {
+        color: $color-dark;
+      }
+    }  
+
+    .active {
+      color: $color-warning;
+    }
   }
 }
